@@ -9,5 +9,14 @@
 <body>
 <?php include('nav.php'); 
     ?>
+
+
+        <article>
+           <fieldset>
+                <h3>titre du paragrahpe</h3>
+                <p>ici bilan</p>
+            </fieldset>
+        </article>        
+ 
 </body>
 </html>
