@@ -24,7 +24,7 @@
             </ul>
         </li>
         <li>
-            <a href="ajout.php">Ajout</a>
+            <a href="ajout.php">Ajouter</a>
         </li>
         <li>
             <a href="bilan.php">Bilan</a>

@@ -13,15 +13,34 @@
     <?php include('nav.php'); ?>
         <article>
            <fieldset>
-                <h3>titre du paragraphe</h3>
-                <p>Ici ma dernière journée</p>
-
-                <a href="ajout.php"><button>Ajouter</button></a>
+                <h3>Dérnière journée</h3>
+                <?php 
+        include 'read.php'
+        ?>
+    <table>
+   <thead>
+     <tr>
+       <th>Semaine</th>
+       <th>Journée</th>
+       <th>Détail</th>
+     </tr>
+   </thead>
+   <tbody>
+     <?php while($row = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+     <tr>
+       <td><?php echo htmlspecialchars($row['semaine']); ?></td>
+       <td><?php echo htmlspecialchars($row['journee']); ?></td>
+       <td><?php echo htmlspecialchars($row['detail']); ?></td>
+     </tr>
+     <?php endwhile; ?>
+   </tbody>
+    </table>
+            <a href="ajout.php"><button>Ajouter</button></a>
                 </fieldset>
         </article>
         <article>
            <fieldset>
-                <h3>titre du paragraphe</h3>
+                <h3>Description du projet</h3>
                 <p>ici Description projet</p>
             </fieldset>
         </article>        

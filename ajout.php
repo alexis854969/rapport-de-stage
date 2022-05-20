@@ -14,18 +14,13 @@
 <?php include('nav.php'); 
     ?>
      <h1>Ajout</h1>
-        <form>
-            <div class="mb-3">
-                <label for="email" class="form-label"></label>
-                <input type="email" class="form-control" id="email" name="email" aria-describedby="email-help">
-                <div id="email-help" class="form-text">Bouton.</div>
-            </div>
-            <div class="mb-3">
-                <label for="message" class="forzm-label">Ajoutez</label>
-                <textarea class="form-control" placeholder="Exprimez vous" id="message" name="textarea"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Envoyer</button>
-        </form>
-        <br />
+     <form action="insert.php" method="GET">
+        <fieldset>
+            <label>Semaine</label><input type="number" name ="semaine" placeholder="indiquez 1 pour semaine 1, 2 pour semaine, 2 etc.">
+            <label>Jour</label><input type="text" name="journee" placeholder="Lundi, Mardi, Mercredi, Jeudi ou Vendredi">
+            <label>Détail</label><input type="text" name="detail" placeholder="détailler votre journée">
+            <input type="submit">
+        </fieldset>
+    </form>
 </body>
 </html>
