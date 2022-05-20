@@ -24,16 +24,16 @@
             </ul>
         </li>
         <li>
-            <a href="ajout.php">ajout</a>
+            <a href="ajout.php">Ajout</a>
         </li>
         <li>
-            <a href="bilan.php">bilan</a>
+            <a href="bilan.php">Bilan</a>
         </li>
         <li>
-            <a href="entreprise.php">entreprise</a>
+            <a href="entreprise.php">Entreprise</a>
         </li>
         <li>
-            <a href="source.php">source</a>
+            <a href="source.php">Source</a>
         </li>
     </ul>
 </nav>

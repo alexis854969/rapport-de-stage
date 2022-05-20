@@ -35,12 +35,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
-  li a {
-    text-decoration: none;
-    color: black;
-  }
-  
   .menu-deroulant > a:after{
     content: '❯';
     font-size: 15px;
@@ -99,5 +93,8 @@
   .menu-deroulant:hover > .sous-menu {
     animation: apparitionSousMenu 1s forwards;
   }
-  
+  li  {
+    text-decoration: none;
+    color: black;
+  }
   
