@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style 10.css" /><!--
+    <link rel="stylesheet" href="style10.css" /><!--
             ne pas oublier de changerle nom de la feuille de style
         -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
