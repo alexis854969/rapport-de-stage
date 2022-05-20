@@ -1,4 +1,4 @@
-<table>
+    <table>
  <ul>
      <li>
          <a href="semaine1.php">Semaine 1</a>

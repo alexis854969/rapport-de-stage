@@ -14,7 +14,7 @@
     ?>
         <article>
            <fieldset>
-                <h3>titre du paragrahpe</h3>
+                <h3>titre du paragraphe</h3>
                 <p>ici bilan</p>
             </fieldset>
         </article>        
