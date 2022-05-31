@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="utf-8" />
      <link rel="stylesheet" href="style10.css"/>
       <!-- ne pas oublier de changerle nom de la feuille de style-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
-</head>
+  </head>
 
 <body>
     <?php include('nav.php'); ?>
@@ -48,7 +48,7 @@
            <fieldset>
                 <h3>Presentation de l'étudiant</h3>
                 <p>Je m'appele alexis Auriou , j'ai 17 ans , éleves a saint-marie du port en premier SN en profesionel </p>
-                <img src="" alt="ma photo">
+                <img id="maphoto"src="" alt="ma photo">
             </fieldset>
         </article>    
 </body>

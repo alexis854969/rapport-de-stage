@@ -10,9 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php include('nav.php'); 
-    ?>
-            
+    <?php include('nav.php'); ?>
         <article>
            <fieldset>
                 <h3>plans de la semaine</h3>
@@ -71,17 +69,7 @@ Ce jeudi, j’ai fait principalement de l’observation au sein du support techn
 J’ai commencé à voir le domaine de la virtualisation que je vais peaufiner vendredi, pour créer un domaine grâce à la virtualisation avec UBUNTU et windows 10 toute la journée</p>
             </fieldset>
         </article>   
-        <article>
-          stallation wifi Windows + UBUNTU
-    • Installation Debian wiki
-    • Paramétrage pare-feu désactivation et ouvert un part
-    • Paramétrage de wifi sur debian 11 
-    • Différence entre http et HTTPS et installation en UVS V4 sur DEBIAN + DUBODAGE</p>
-            </fieldset>
-        </article>   
-        
-</body>
-</html> <fieldset>
+        <article> <fieldset>
                 <h3>vendredi </h3>
                 <p>Installation de virtualbox afin de créer un réseau, il faut se connecter en  en filaire et réaliser le paramétrage d’une plage d’IP/ nouvel, Window/ window 10.
 Création windows 10 , la réalisation d’une machine virtuelle windows 10. La réalisation d’une machine virtuelle UBENTU pour partager le domaine , les 2 machines sans ping ,sur la machine UBUNTU
@@ -92,4 +80,13 @@ En résumé j’ai crée des Vlam de Windows 10, ubuntu et BREBION 11.
 J’ai fait du partage de dossier et de 
     • Installer virtual box + extension
     • Prise en main virtual base
-    • In
+    • Installation wifi Windows + UBUNTU
+    • Installation Debian wiki
+    • Paramétrage pare-feu désactivation et ouvert un part
+    • Paramétrage de wifi sur debian 11 
+    • Différence entre http et HTTPS et installation en UVS V4 sur DEBIAN + DUBODAGE</p>
+            </fieldset>
+        </article>   
+        
+</body>
+</html>

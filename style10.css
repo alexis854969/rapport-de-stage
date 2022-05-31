@@ -116,3 +116,20 @@ li a {
 .sous-menu > li:hover > a {
   color: white;
 }
+
+article,fieldset {
+ margin-top: 2s0px;
+ margin-bottom: 20px;
+}
+fieldset h3 {
+padding: 15px;
+text-align: center;
+}
+fieldset p {
+  text-align: center;
+}
+.maphoto {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
