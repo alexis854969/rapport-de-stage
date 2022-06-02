@@ -10,28 +10,8 @@
     <title>Document</title>
 </head>
 <body>
-<?php include('nav.php'); 
-    ?>
-        <article>
-        <fieldset>
-            <h3>titre du paragrahpe</h3>
-            <ul>
-                <li>Lundi</li>
-                <li>Mardi</li>
-                <li>Mercredi</li>
-                <li>Jeudi</li>
-                <li>Vendredi</li>
-            </ul>
-        </fieldset>
-    </article>        
-    
-    <article>
-        <fieldset>
-            <h3>titre du paragrahpe</h3>
-            <p>ici Description projet</p>
-        </fieldset>
-    </article>   
-    <article>
+<?php include('nav.php');?>  
+ <article>
     <fieldset>
         <h3>Lundi</h3>
         <p> Ce matin, j’ai vu la conception de la mise en page de mon site. J’ai commencé l’aspect visuel. J’ai rempli le site avec mon rapport de stage. J’ai peaufiné le visuel et le contenu. Pour le moment, le site est rempli de la semaine 1 et 2. Je vais aussi devoir m’informer sur MYSQL. Pour la suite de mon site, cet après-midi. Je dois aller avec mon tuteur à la Roche Sur Yon. Pour récupérer un serveur au data center de INNLOG.

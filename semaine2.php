@@ -10,21 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php include('nav.php'); 
-    ?>
-    <article>
-<fieldset>
-        <h3>titre du paragraphe </h3>
-        <ul>
-            <li>Lundi</li>
-            <li>Mardi</li>
-            <li>Mercredi</li>
-            <li>Jeudi</li>
-            <li>Vendredi</li>
-        </ul>
-    </fieldset>
-</article>        
-
+<?php include('nav.php');?>
 <article>
     <fieldset>
         <h3>Lundi</h3>

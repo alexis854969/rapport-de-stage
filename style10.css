@@ -3,14 +3,20 @@
 
 body
 {
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family:'BallparkWeiner', serif;
     color:black;
     margin: 0;
     padding: 0;
-    background-image: url('img/ombres.png');
-}
-
-
+      padding-bottom: 460px;
+      background: url('img/ombres.png') repeat-x,url('img/innlog2.png') no-repeat,url(img/separateur.png) rgb(204, 208, 213) no-repeat;
+      background-position:bottom;
+      background-attachment: initial;
+ }
+    div.bordure-bottom {
+      padding: 0px 0px 0px 0px;
+      background-position:center;
+      background-repeat:bottom;
+    }
 /***************Navigation*********************/
 :root{
   --hauteur-menu: 60px;
@@ -19,7 +25,8 @@ body
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Montserrat, sans-serif;
+  src: url('polices/ballpark.eot');
+  src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
 }
 
 nav {
@@ -41,7 +48,7 @@ nav ul {
 }
 
 nav > ul > li {
-  background-color: white;
+  background-color: rgb(204, 208, 213);
   position: relative;
   height: 100%;
   flex: 1;
@@ -71,7 +78,7 @@ li a {
 }
 
 .menu-deroulant:hover > a:after{
-  animation: rotationFleche 0.2s linear forwards;
+  animation: rotationFleche 0.1s linear forwards;
 }
 
 @keyframes rotationFleche {
@@ -93,7 +100,7 @@ li a {
   overflow: hidden;
   max-height: 0;
   border-radius: 2px;
-  background-color: white;
+  background-color: rgb(204, 208, 213);
 }
 
 .menu-deroulant:hover > .sous-menu {
@@ -128,7 +135,7 @@ li a {
 }
 
 .sous-menu > li:hover > a {
-  color: white;
+  color: rgb(188, 192, 196);
 }
 
 
@@ -140,7 +147,7 @@ article,fieldset {
 fieldset h3,h1,h2 {
 padding: 15px;
 text-align: center;
-background-color: darkcyan;
+background-color: rgb(169, 184, 184);
 }
 fieldset  {
   margin: 0.1em;
@@ -178,8 +185,8 @@ th, td{
 
 /*************bouton de navigation*************/
 #btnAjouter, #btnEnvoyer {
-  background-color:#1e8925 ;
-  color: white;
+  background-color:#5f6a60 ;
+  color: rgb(185, 188, 190);
   text-decoration: none;
   border: none;
   padding: 1em;
@@ -187,21 +194,21 @@ th, td{
 }
 
 #btnAjouter:hover,#btnEnvoyer:hover {
-  background-color: white;
-  color:#1e8925;
+  background-color: rgb(185, 188, 190);
+  color:#f5faf5;
   box-shadow: 2px 1px 2px 1px rgba(0,0,0,0.3);
 }
 
 .btnSemaine {
-  background-color:#ffffff ;
-  color: #2169EC;
+  background-color:rgb(185, 188, 190) ;
+  color: black;
   border: none;
   padding: 1em;
   box-shadow: 2px 1px 2px 1px rgba(0,0,0,0.3);
 }
 .btnSemaine:hover {
-  background-color: #2169EC;
-  color: white;
+  background-color:#5f6a60;
+  color: rgb(185, 188, 190);
   box-shadow: 2px 1px 2px 1px rgba(0,0,0,0.3);
 }
 
@@ -236,3 +243,4 @@ label {
 #accueilFieldset > #lstTechno{
   padding-left: 30px;
 }
+

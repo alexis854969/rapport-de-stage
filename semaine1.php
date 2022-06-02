@@ -10,23 +10,10 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include('nav.php'); ?>
-        <article>
-           <fieldset>
-                <h3>plans de la semaine</h3>
-                <ul>
-                    <li>Lundi</li>
-                    <li>Mardi</li>
-                    <li>Mercredi</li>
-                    <li>Jeudi</li>
-                    <li>Vendredi</li>
-                </ul>
-            </fieldset>
-        </article>        
-        
-        <article>
-           <fieldset>
-                <h3>lundi </h3>
+    <?php include('nav.php');?>
+    <article>
+        <fieldset>
+             <h3>lundi </h3>
                 <p>Visite et explication de la société Innlog
 11h exercices de programmation
 14h J’ai commencé à développer un site en HTML sur l’utilisation du code
