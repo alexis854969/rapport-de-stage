@@ -8,7 +8,7 @@ body
     margin: 0;
     padding: 0;
       padding-bottom: 460px;
-      background: url('img/ombres.png') repeat-x,url('img/innlog2.png') no-repeat,url(img/separateur.png) rgb(204, 208, 213) no-repeat;
+      background: url('img/ombres.png') repeat-x,url('img/innlog2.png') no-repeat,url(img/separateur.png) rgb(234, 237, 242) no-repeat;
       background-position:bottom;
       background-attachment: initial;
  }

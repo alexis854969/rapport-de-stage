@@ -77,25 +77,19 @@
             </fieldset>       
         </article>  
    </article>    
-   </article>    
-      <table>
-     <thead>
-       <tr>
-         <th>Semaine</th>
-         <th>Journée</th>
-         <th>Détail</th>
-       <article>
-     <fieldset>
-     <h3>Liste des journée</h3>
-     </tr>
-    </thead>
-      <tbody>
-                <tr>
-          <td>1</td>
-          <td>lundi</td>
-          <td>Visite et explication de la société Innlog 11h exercices de programmation 14h J’ai commencé à développer un site en HTML sur l’utilisation du code 16h Entraînement avec des exercices de programmation  Notes : J’ai commencé à apprendre HTML grâce à des exercices et appris la base du CSS. Je me suis documenté</td>
-        </tr>
-             </tbody>
-     </table>
+   </article>  
+   <article>  
+   <?php
+    include 'read.php'
+    ?>
+
+    <?php while($row = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+
+    <p><?php echo htmlspecialchars($row['detail']); ?></p>
+
+    <?php endwhile; ?>
+
+
+    </article> 
   </body>
 </html>

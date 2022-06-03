@@ -12,4 +12,53 @@
 <body>
 <?php include('nav.php');?>
 </body>
+<article>
+        <fieldset>
+            <h3>lundi </h3>
+            <?php include 'read51.php'?>
+            <?php while($row = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+            <p><?php echo htmlspecialchars($row['detail']); ?></p>
+            <?php endwhile; ?>
+        </fieldset>
+    </article>
+
+    <article>
+        <fieldset>
+            <h3>Mardi </h3>
+            <?php include 'read52.php'?>
+            <?php while($row = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+            <p><?php echo htmlspecialchars($row['detail']); ?></p>
+            <?php endwhile; ?>
+        </fieldset>
+    </article>
+
+    <article>
+        <fieldset>
+            <h3>Mercredi </h3>
+            <?php include 'read53.php'?>
+            <?php while($row = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+            <p><?php echo htmlspecialchars($row['detail']); ?></p>
+            <?php endwhile; ?>
+        </fieldset>
+    </article>
+
+    <article>
+        <fieldset>
+            <h3>Jeudi </h3>
+            <?php include 'read54.php'?>
+            <?php while($row = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+            <p><?php echo htmlspecialchars($row['detail']); ?></p>
+            <?php endwhile; ?>
+        </fieldset>
+    </article>
+
+    <article>
+        <fieldset>
+            <h3>Vendredi </h3>
+            <?php include 'read55.php'?>
+            <?php while($row = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+            <p><?php echo htmlspecialchars($row['detail']); ?></p>
+            <?php endwhile; ?>
+        </fieldset>
+    </article>
 </html>
